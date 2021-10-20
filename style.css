@@ -10,7 +10,7 @@ body{
 
 h1{
   text-align: center;
-  font-size: 49px;
+  font-size: 3em;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -19,7 +19,7 @@ form{
   margin: auto;
   border: 2px solid gray;
   border-radius: 10%;
-  width: 450px;
+  max-width: max-content;
   text-align: center;
 }
 
@@ -39,6 +39,7 @@ input{
 button{
   padding: 10px;
   margin-bottom: 50px;
+  width: 150px;
 }
 
 #result{
